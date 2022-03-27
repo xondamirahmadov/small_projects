@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank credit card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <img src="./images/visa.png" class="card__visa" alt="Visa">
+        <div class="card__input card__number">
+            <input type="text" value="8362 6452 8462 2865" 
+            onfocus="this.value=''" maxlength="19">
+        </div>
+
+        <div class="card__flex">
+            <div class="card__input">
+                <label for="holder">Holder</label>
+                <input type="text" value="John Doe" id="holder" onfocus="this.value=''">
+            </div>
+            <div class="card__input">
+                <label for="expires">Expires</label>
+                <input type="text" value="06/21" id="expires" onfocus="this.value=''">
+            </div>
+            <div class="card__input">
+                <label for="cvc">CVC</label>
+                <input type="number" value="123" id="cvc" onfocus="this.value=''" max="999">
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
