@@ -119,6 +119,10 @@
 }
 
 /* Core styles */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
